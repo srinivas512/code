@@ -3,7 +3,7 @@ sqoop list-databases \
   --username retail_dba \
   --password cloudera
 
-sqoop list-tables \ 
+sqoop list-tables \
   --connect "jdbc:mysql://quickstart.cloudera:3306/retail_db" \
   --username retail_dba \
   --password cloudera
